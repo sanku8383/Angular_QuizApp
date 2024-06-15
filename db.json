@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "content": "What will be output of \nlet a=\"1\";\nlet b= 1;\nconsole.log(a===b);",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "true",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "false",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "error",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "content": "what will be output of below code ?\n(function() {\n\tvar a = Object.create({\n\t\tfoo: 'foo'\n\t});\n\tvar b= Object.create(a);\n\tconsole.log(a== b);\n\tconsole.log(a=== b);\n}());",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "true false",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "false false",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "false false",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "true true",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "content": "What will be output of below code?\nlet c = 30;\nif (c === 30) {\n  let c = 31;\n}\nconsole.log(c); ",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "31",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "30",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "undefined",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "error",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "content": "What will be output of console.log(!!0)",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "0",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "false",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "true",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "content": "What will be output of \nconsole.log(0+5+\"a\"+4)",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "9a",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "05a4",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "5a4",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "error",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "quizs": [
+    {
+      "id": "1",
+      "name": "Javascript quiz 1",
+      "code": "jsquiz01",
+      "questions": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Javascript quiz 2",
+      "code": "jsquiz02",
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "quizResults": [
+    {
+      "id": "9ebd",
+      "name": "abc",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "a"
+        }
+      ],
+      "correct": 2,
+      "inCorrect": 2,
+      "unAttempt": 0,
+      "score": 0,
+      "percentage": 0
+    }
+  ]
+}
